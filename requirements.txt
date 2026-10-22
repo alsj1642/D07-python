@@ -8,3 +8,6 @@ streamlit
 # weather.py, rateCalc.py 실행에 필요한 패키지 (os, datetime, email 은 표준 라이브러리)
 requests        # OpenWeather, ExchangeRate-API 호출
 python-dotenv   # .env 파일에서 API 키 읽기
+
+# chat.py 실행에 필요한 패키지
+openai          # OpenAI 챗봇 (gpt-4o-mini)
