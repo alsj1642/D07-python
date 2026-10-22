@@ -1,0 +1,19 @@
+# API 키 금고 (절대 올리지 않기)
+.env
+.env.*
+!.env.example
+
+# Streamlit 전용 금고 파일
+.streamlit/secrets.toml
+
+# 파이썬 임시 파일
+__pycache__/
+*.py[cod]
+
+# 가상환경
+.venv/
+venv/
+
+# 운영체제가 만드는 파일
+.DS_Store
+Thumbs.db
